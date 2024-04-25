@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/video.js@8.10.0/dist/video-js.min.css" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+  <div>
+    <video
+      id="my_video"
+      class="video-js"
+      controls
+      preload="auto"
+      data-setup="{}"
+    >
+    </video>
+  </div>
+
+  <input class="video-url" type="text">
+  <button class="load-btn">load video</button>
+
+  <script src="video.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
